@@ -1,0 +1,141 @@
+/*h1+h2=afecta al h1 y solo el primer elemento hijo h2*/
+/*h1~h2=afecta al h1 y los elementos hijos que sean h2*/
+/*las pseudoclases aplican estilos cuando se realizan ciertas acciones algunas son hoover, active*/
+/*atributos generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 100px;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #E6F0F9;
+}
+
+h1, h2, h3{
+    font-family: Verdana; 
+    text-align: center;
+}
+h1{
+    color: #0077B6;
+}
+
+h2, h3{
+    color: #0096C7;
+}
+
+.parrafo{
+    font-size: 20px;
+    font-family: Georgia;
+    text-align: justify;
+    color:  #4B4453;
+}
+
+.item{/*cajas de cada uno de los 5 elementos*/
+    margin-bottom: 200px;
+    width: 70%;
+}
+
+.imagen{
+    width: 300px;
+    height: 200px;
+}
+
+/*atributos de lista de contenido*/
+.lista{
+   width: 20%;
+   display: inline-block;
+   position: fixed; /* fijar una caja en una parte de la pantalla*/
+   left: 75%;
+}
+/*-------------------------------------------------------------------------------*/
+
+/*----------------atributos div-definicion de ia------------------------------------*/
+.definicion{/*subtitulo*/
+    width: 70%;
+}
+
+p.p1{  /*aplicar selectores para dar propiedades a ciertas partes del codigo*/
+    padding-left: 5%;
+}
+
+.item.caja1{
+    margin-top: 50px;
+    display: flex;
+}
+#img_def{
+    width: 50%;
+    height: auto;
+}
+/*-------------------------------------------------------------------------------*/
+
+/*-----------atributos div-ejemplos de herramientas basadas de ia---------------------*/
+.item.caja2 h2, .item.caja2 p{
+    padding-bottom: 50px;
+}
+
+.item.caja2{
+    text-align: center;
+}
+
+.img_apli{
+    width: 70%;
+}
+
+.cajilla{
+    width: 40%;
+    display: inline-block;
+    margin: 0 0 50px 5%;
+}
+
+.cajilla .img_apli, .cajilla .tituloh3{/*--*/
+    margin-bottom: 15px;
+}
+/*-------------------------------------------------------------------------------*/
+
+/*estilo para la tabla ventajas y desafios*/
+
+/*.item h2, .item h3{
+    /*padding-bottom: 50px;
+}*/
+
+.table_r th{
+    text-align: center;
+}
+
+.table_r{
+    border-collapse: collapse;/*sirve para juntar o quitar el espacio entre todas las celdas de la tabla*/
+    border: 2px solid green;
+    padding: 5px 20px 5px 20px; /*dimensiones padding en este orden top, right, bottom, left */
+    font-size: 20px;
+    font-family: Georgia;
+    color:  #4B4453;
+    text-align: justify;
+}
+/*-------------------------------------------------------------------------------*/
+
+/*atributos de ejemplos de herramientas basadas de ia*/
+.item.caja2 p{
+    text-align: center;
+}
+
+/*atributos de Perspectivas futuras sobre la evolución del desarrollo web con IA*/
+
+p.p2, h3.h_item2{ /*aplicar selectores para dar propiedades a ciertas partes del codigo*/
+    padding: 0 50px 0 0;
+}
+
+
+.caja5{
+    display: inline-flex;/*permite que un elemento se comporte como un elemento en línea, pero a la vez, su contenido se organiza usando el modelo de caja flexible*/
+    width: 45%;   
+    margin: 0 0 50px 50px;
+
+}
+
+.img_item2{
+    width: 50%;
+}
