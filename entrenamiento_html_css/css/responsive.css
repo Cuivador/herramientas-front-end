@@ -1,7 +1,0 @@
-@media (max-width: 800px){
-    .item{
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
-    }
-}
