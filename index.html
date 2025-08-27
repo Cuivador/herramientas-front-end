@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Html y Estilos</title>
+</head>
+
+<body>
+    <!--Agregar un formulario de inicio de sesion-->
+
+    <!----------------------------------------------------------------------------------------------------------------------------->
+    <a id="regresar"></a><!--ancla para regresar-->
+    <div class="lista">
+        <h1>Lista de contenido</h1>
+        <ol>
+            <li><a href="#definicion"><!--ancla para ir-->Definición de Inteligencia Artificial (IA)</a></li>
+            <li><a href="#aplicacion">Aplicaciones de IA en el desarrollo web </a></li>
+            <li><a href="#ventajas">Ventajas y desafíos de integrar IA en proyectos web</a></li>
+            <li><a href="#ejemplos">Ejemplos reales o hipotéticos de herramientas basadas en IA</a></li>
+            <li><a href="#perspectivas">Perspectivas futuras sobre la evolución del desarrollo web con IA</a>
+            </li>
+        </ol>
+    </div>
+    <!----------------------------------------------------------------------------------------------------------------------------->
+
+    <form class="formulario">
+        <label for="usuario"><p>Usuario:</p></label>
+        <input type="text" id="usuario" name="fname">
+        <label for="contrasena"><p>Contraseña:</p></label>
+        <input type="password" id="contrasena" name="lname">
+        <input type="submit" value="Enviar" class="env">
+    </form>
+
+    <!----------------------------------------------------------------------------------------------------------------------------->
+    <a id="definicion"></a><!--ancla para ir-->
+
+    <div class="definicion">
+        <h2>Definición de Inteligencia Artificial (IA)</h2>
+    </div>
+    <div class="item caja1">
+        <img id="img_def" src="media/images/def_ia.jpg">
+        <p class="parrafo p1">La inteligencia artificial es la simulación de procesos de inteligencia humana por parte
+            de máquinas,
+            especialmente sistemas informáticos. Entre los ejemplos de aplicaciones de la IA se incluyen los sistemas
+            expertos,
+            el procesamiento del lenguaje natural (PLN), el reconocimiento de voz y la visión artificial.</p>
+            <!--<marquee>hhhhhahhashh</marquee>-->
+    </div>
+
+    <!----------------------------------------------------------------------------------------------------------------------------->
+
+    <!----------------------------------------------------------------------------------------------------------------------------->
+    <a id="aplicacion"></a>
+    <div class="item">
+        <h2 class="tituloh2">Aplicaciones de IA en el desarrollo web</h2>
+        <p class="parrafo">La Inteligencia Artificial (IA) está transformando el desarrollo web, ofreciendo nuevas
+            formas de optimizar la experiencia
+            del usuario, automatizar tareas y mejorar la eficiencia del código. Algunas aplicaciones clave incluyen
+            chatbots, búsqueda
+            por voz, optimización de imágenes y código, y personalización del contenido. </p>
+        <div class="cajilla">
+            <img src="media/images/asistentes_de_codigo.jpg" alt="Asistente de código" class="img_apli">
+            <h3 class="titulo_a">Generación de código</h3>
+            <p class="parrafo">IA puede predecir y completar líneas de código basándose en el contexto, acelerando la
+                escritura
+                de código y reduciendo errores tipográficos.</p>
+        </div>
+
+        <div class="cajilla">
+            <img src="media/images/generacion_codigo.jpg" alt="Generación de código" class="img_apli">
+            <h3 class="titulo_a">Asistentes de código</h3>
+            <p class="parrafo">Herramientas como GitHub Copilot y Amazon CodeWhisperer pueden generar fragmentos de
+                código
+                a partir de descripciones en lenguaje natural o ejemplos de código.</p>
+        </div>
+
+        <div class="cajilla">
+            <img src="media/images/personalizacion_contenido.PNG" alt="Personalización del contenido" class="img_apli">
+            <h3 class="titulo_a">Personalización del contenido</h3>
+            <p class="parrafo">La personalización impulsada por IA utiliza este análisis basado en reglas para
+                extraer información estadística de los datos del cliente y predecir sus preferencias o comportamientos
+                futuros.
+                Esto permite a las marcas ofrecer servicios hiperpersonalizados con los que los clientes tienen mayor
+                probabilidad
+                de interactuar</p>
+        </div>
+    </div>
+    <!----------------------------------------------------------------------------------------------------------------------------->
+
+    <!----------------------------------------------------------------------------------------------------------------------------->
+
+    <a id="ventajas"></a>
+    <div class="item">
+        <h2 class="tituloh2">Ventajas y desafíos de integrar IA en proyectos web</h2>
+        <table class="table_r">
+            <tr class="table_r">
+                <th class="table_r"><b>Ventajas</b></th>
+                <th class="table_r"><b>Desafios</b></th>
+            </tr>
+
+            <tr class="table_r">
+                <td class="table_r"><b>Automatización eficiente:</b> La inteligencia artificial es una herramienta
+                    transformadora para las empresas, ya que
+                    puede revolucionar la eficiencia operativa mediante la automatización de procesos</td>
+                <td class="table_r"><b>Costos de desarrollo y mantenimiento:</b> Modelos de IA (sobre todo los más
+                    potentes) requieren infraestructura costosa:
+                    servidores con GPU, servicios en la nube o APIs de pago, además el entrenamiento y el ajuste fino
+                    (fine-tuning) pueden ser recurrentes
+                    si cambian los datos o las necesidades.</td>
+            </tr>
+
+            <tr class="table_r">
+                <td class="table_r"><b>Toma de decisiones informadas:</b> La inteligencia artificial mejora la toma de
+                    decisiones empresariales ofreciendo
+                    análisis de datos avanzados y predicciones precisas. A través del procesamiento de grandes conjuntos
+                    de datos, la IA
+                    identifica patrones, tendencias y oportunidades que los humanos podrían pasar por alto.</td>
+                <td class="table_r"><b>Complejidad técnica:</b> Integrar IA no es solo “conectar una API” — muchas veces
+                    requiere trabajar con librerías especializadas
+                    (TensorFlow, PyTorch) y conocimientos de ML. La IA debe integrarse bien con la arquitectura web
+                    (frontend, backend, base de datos, APIs), lo que añade
+                    capas de complejidad.</td>
+            </tr>
+
+            <tr class="table_r">
+                <td class="table_r"><b>Optimización de procesos:</b> La IA también tiene a su disposición el uso de
+                    datos para optimizar los procesos
+                    empresariales, identificando patrones y realizando tareas repetitivas sin errores.</td>
+                <td class="table_r"><b>Calidad y disponibilidad de datos:</b> Si el modelo se entrena con datos propios,
+                    estos deben ser limpios, relevantes y actualizados.
+                    Datos incompletos o sesgados → resultados poco fiables o discriminatorios.</td>
+            </tr>
+
+            <tr class="table_r">
+                <td class="table_r"><b>Mejor atención al cliente:</b> La inteligencia artificial está transformando la
+                    atención al cliente gracias al uso
+                    de chatbots y asistentes virtuales que ofrecen respuestas rápidas y precisas. Además, la IA puede
+                    analizar datos de
+                    interacciones previas para personalizar recomendaciones y mejorar la experiencia del cliente.</td>
+                <td class="table_r"><b>Latencia y rendimiento:</b>Modelos de IA grandes pueden tardar segundos (o más)
+                    en procesar una solicitud, lo que
+                    afecta la experiencia del usuario. A veces se requiere optimización, como usar modelos más ligeros o
+                    preprocesar datos.</td>
+            </tr>
+
+            <tr class="table_r">
+                <td class="table_r"><b>Personalización:</b> La IA potencia la personalización de productos y servicios
+                    al analizar datos individuales y
+                    las preferencias de los clientes. De esta manera, las empresas pueden ofrecer experiencias únicas,
+                    adaptando recomendaciones,
+                    contenido y ofertas a las necesidades específicas de cada cliente.</td>
+                <td class="table_r"><b>Interpretabilidad y confianza:</b>Explicar por qué la IA tomó cierta decisión no
+                    siempre es sencillo (problema
+                    de caja negra). En entornos críticos (finanzas, salud, justicia), esta falta de transparencia puede
+                    ser un gran obstáculo legal y ético.</td>
+            </tr>
+        </table>
+    </div>
+    <!----------------------------------------------------------------------------------------------------------------------------->
+
+    <!----------------------------------------------------------------------------------------------------------------------------->
+    <a id="ejemplos"></a>
+    <div class="item">
+        <h2 class="tituloh2">Ejemplos reales o hipotéticos de herramientas basadas en IA</h2>
+        <h3 class="tituloh3">Ejemplos reales</h3>
+
+        <div class="cajilla2">
+            <img src="media/images/chatbox.PNG" alt="Chatbox inteligentes" class="img_apli">
+            <p class="parrafo p2">Ej: Intercom o Zendesk AI</p>
+            <h3 class="titulo_e">Chatbots inteligentes</h3>
+            <p class="parrafo">Atención al cliente 24/7, con respuestas automáticas basadas en el historial y el
+                contexto del usuario.</p>
+        </div>
+
+        <div class="cajilla2">
+            <img src="media/images/motores.jfif" alt="motores de recomendacion" class="img_apli">
+            <p class="parrafo p2">Ej: Netflix, Amazon</p>
+            <h3 class="titulo_e">Motores de recomendación</h3>
+            <p class="parrafo">Sugerir películas, productos o contenido personalizado usando aprendizaje automático.</p>
+        </div>
+
+        <div class="cajilla2">
+            <img src="media/images/generacion_texto.png" alt="Generación de texto" class="img_apli">
+            <p class="parrafo p2">Ej: ChatGPT, Jasper AI</p>
+            <h3 class="titulo_e">Generación de texto</h3>
+            <p class="parrafo">Redacción de artículos, emails o contenido de marketing a partir de indicaciones breves.
+            </p>
+        </div>
+
+        <div class="cajilla2">
+            <img src="media/images/reconocimiento_imagenes.png" alt="Reconocimiento de imágenes" class="img_apli">
+            <p class="parrafo p2">Ej: Google Vision AI</p>
+            <h3 class="titulo_e">Reconocimiento de imágenes</h3>
+            <p class="parrafo">Clasificar fotos, detectar objetos o leer texto en imágenes (OCR).</p>
+        </div>
+
+        <div class="cajilla2">
+            <img src="media/images/analisis_sentimiento.jpg" alt="Analisis de sentimiento" class="img_apli">
+            <p class="parrafo p2">Ej: MonkeyLearn, AWS Comprehend</p>
+            <h3 class="titulo_e">Análisis de sentimiento</h3>
+            <p class="parrafo">Evaluar opiniones de clientes en redes sociales o encuestas para medir satisfacción.</p>
+        </div>
+    </div>
+    <!----------------------------------------------------------------------------------------------------------------------------->
+
+    <!----------------------------------------------------------------------------------------------------------------------------->
+    <a id="perspectivas"></a>
+    <div class="item">
+        <h2 class="tituloh2">Perspectivas futuras sobre la evolución del desarrollo web con IA</h2>
+        <div class="caja5">
+            <div class="textop2">
+                <h3 class="tituloh3">Automatización del desarrollo:</h3>
+                <p class="parrafo">La IA creará y optimizará código de forma automática, reduciendo tiempos y errores.
+                    Será posible desarrollar sitios completos a partir de simples indicaciones textuales.</p>
+            </div>
+            <img src="media/images/automatizacion.jpg" alt="Automatización del desarrollo" class="img_per">
+        </div>
+
+        <div class="caja5">
+            <div class="textop2">
+                <h3 class="tituloh3">Experiencias ultra personalizadas:</h3>
+                <p class="parrafo">Las webs ajustarán diseño, idioma y contenido según cada usuario en tiempo real.
+                    Esto generará mayor engagement y mejores tasas de conversión.</p>
+            </div>
+            <img src="media/images/experiencias.png" alt="Experiencias ultra personalizadas" class="img_per">
+        </div>
+
+        <div class="caja5">
+            <div class="textop2">
+                <h3 class="tituloh3">Diseño y contenido generativo:</h3>
+                <p class="parrafo">La IA producirá gráficos, textos y videos adaptados a cada proyecto.
+                    También propondrá mejoras visuales basadas en datos de uso.</p>
+            </div>
+            <img src="media/images/contenido.png" alt="Diseño y contenido generativo" class="img_per">
+        </div>
+
+        <div class="caja5">
+            <div class="textop2">
+                <h3 class="tituloh3">Integración con agentes inteligentes:</h3>
+                <p class="parrafo">Chatbots avanzados brindarán atención al cliente y gestión de tareas.
+                    Responderán con contexto y lenguaje natural.</p>
+            </div>
+            <img src="media/images/agentes.PNG" alt="Integración con agentes inteligentes" class="img_per">
+        </div>
+
+        <div class="caja5">
+            <div class="textop2">
+                <h3 class="tituloh3">Web inteligente y semántica:</h3>
+                <p class="parrafo">La IA comprenderá mejor la intención de búsqueda para mejorar el SEO.
+                    Creará datos estructurados automáticamente para optimizar la indexación.</p>
+            </div>
+            <img src="media/images/web_semantica.png" alt="Web inteligente y semántica" class="img_per">
+        </div>
+
+        <div class="caja5">
+            <div class="textop2">
+                <h3 class="tituloh3">Seguridad y mantenimiento inteligente:</h3>
+                <p class="parrafo">Identificará amenazas y corregirá vulnerabilidades antes de que se exploten.
+                    Mantendrá la web estable mediante análisis predictivo.</p>
+            </div>
+            <img src="media/images/seguridad_mantenimiento.png" alt="Seguridad y mantenimiento inteligente"
+                class="img_per">
+        </div>
+
+        <div class="caja5">
+            <div class="textop2">
+                <h3 class="tituloh3">Web autónoma:</h3>
+                <p class="parrafo">Los sitios evolucionarán solos ajustando diseño, contenido y funciones.
+                    Serán entornos digitales autooptimizados y adaptativos.</p>
+            </div>
+            <img src="media/images/web_autonomo.png" alt="Web autónoma" class="img_per">
+        </div>
+    </div>
+    <!----------------------------------------------------------------------------------------------------------------------------->
+    <footer>
+        <p>&copy Jairo Redondo - 2025</p>
+    </footer>
+</body>
+
+</html>
